@@ -31,7 +31,11 @@ function CardSelected () {
     <>
     <div>
       {selectedGrade && (
+        <Card className='my-3'>
+          <Card.Body>
         
+          </Card.Body>
+        </Card>
       )}
     </div>
     </>
