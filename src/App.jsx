@@ -15,3 +15,7 @@ export default function App () {
     </>
   )
 }
+
+function CardSelected () {  
+  const { selectedGrade } = useContext(GradeContext);
+}
