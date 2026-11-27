@@ -7,7 +7,11 @@ export default function EnrollmentStatus() {
     return(
             <>
                 <h1  className='my-3'>School Enrollment</h1>
-                
+                <Form>
+                    <Form.Group>
+                        
+                    </Form.Group>
+                </Form>
             </>
     )
 }
