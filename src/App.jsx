@@ -9,6 +9,7 @@ export default function App () {
     <GradeContext.Provider value={{selectedGrade, setSelectedGrade}}>
       <Container>
       <EnrollmentStatus></EnrollmentStatus>
+      <CardSelected ></CardSelected>
       </Container>
     </GradeContext.Provider>
     </>
