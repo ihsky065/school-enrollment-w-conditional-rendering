@@ -25,4 +25,6 @@ function CardSelected () {
     '3' : {tutitonFee:'$1,500', enrollmentStatus: 'Enrollment Open ✅'},
   };
 
+  const details = gradeDetails[selectedGrade];
+
 }
