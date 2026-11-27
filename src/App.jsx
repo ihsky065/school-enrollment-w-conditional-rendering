@@ -2,6 +2,7 @@ import EnrollmentStatus from './pages/EnrollmentStatus';
 import { useState, useContext} from 'react';
 import { GradeContext } from './contexts/GradeContext';
 import { Card, Container } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function App () {
   const [selectedGrade, setSelectedGrade] = useState('');
