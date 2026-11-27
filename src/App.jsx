@@ -33,7 +33,9 @@ function CardSelected () {
       {selectedGrade && (
         <Card className='my-3'>
           <Card.Body>
-        
+            <Card.Title>Grade {selectedGrade}</Card.Title>
+            <Card.Text>{details.tutitonFee}</Card.Text>
+            <Card.Text>{details.enrollmentStatus}</Card.Text>
           </Card.Body>
         </Card>
       )}
