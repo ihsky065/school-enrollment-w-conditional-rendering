@@ -27,4 +27,13 @@ function CardSelected () {
 
   const details = gradeDetails[selectedGrade];
 
+  return (
+    <>
+    <div>
+      {selectedGrade && (
+        
+      )}
+    </div>
+    </>
+  )
 }
